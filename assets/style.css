@@ -64,6 +64,8 @@ nav a:hover {
 
 .lesson {
    text-align: left; 
+   padding: 30px;;
+   margin: 30px;
 }
 
 .products {
@@ -72,9 +74,21 @@ nav a:hover {
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: flex-start;
   }
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+#beach img {
+
+}
 
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
