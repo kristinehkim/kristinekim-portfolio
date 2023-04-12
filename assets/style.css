@@ -22,9 +22,9 @@ header::after {
     clear: both
 }
 
-header h1 {
-}
+header h1 {}
 
+/* These are referencing that nav bar in the header */
 nav {
     float: right;
 }
@@ -33,7 +33,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+
 }
 
 nav li {
@@ -62,6 +62,7 @@ nav a:hover {
     background-position: center;
 }
 
+/* This is referencing the container for the about me section */
 #about {
     display: flex;
     flex-direction: row;
@@ -80,8 +81,10 @@ nav a:hover {
 #about div {
     flex: 0 0 75%;
     height: 100%;
+    padding: 30px;
 }
 
+/* This is referencing the container for the work (where I will put my projects) container */
 #work {
     display: flex;
     flex-direction: row;
@@ -97,15 +100,13 @@ nav a:hover {
     margin: 30px;
 }
 
-#work div {
-    flex: 0 0 75%;
-    height: 100%;
-}
-
-.lesson {
-   text-align: left; 
-   padding: 30px;;
-   margin: 30px;
+.big-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: flex-start;
+    position: relative;
+    right: 25%;
 }
 
 .products {
@@ -116,16 +117,17 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-start;
-  }
+}
 
 .card {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
     flex: 0 0 300px;
-    margin: 20px;
+    margin: 10px;
 }
 
+/* This is referencing the footer where my contact me section container is */
 #contact {
     display: flex;
     flex-direction: row;
@@ -152,10 +154,12 @@ footer {
 
 footer ul li {
     display: inline-block;
-    text-align: left; 
-    float: right;
-    margin-right: 300px;
+    /* text-align: left;  */
+    /* float: right; */
+    margin-right: 10%;
     padding-top: 25px;
     list-style-type: none;
     flex-direction: row;
 }
+
+@media-screen and max width
