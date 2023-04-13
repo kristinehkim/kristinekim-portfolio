@@ -56,7 +56,7 @@ To do:
 
 
 ## Acknowledgements
-- Many thanks to my instuctor, Michael Pacheco, the TAs, Nirav Venkatesan and Julius Dorfman, and tutor, Dane Shrewsbury.  Also, I would like to acknowledge those that helped me in study groups, Vincent, Len, Benethea
+- Many thanks to my instuctor, Michael Pacheco, the TAs, Nirav Venkatesan and Julius Dorfman, and tutor, Dane Shrewsbury.  Also, I would like to acknowledge those that helped me in study groups, Vincent, Len, Benethea, Newmann, Oswaldo, Kevin, Michael, and probably a few more I may have missed.
 - Resource: https://www.youtube.com/watch?v=FEmysQARWFU I used this video to help me create the footer.
 
 
