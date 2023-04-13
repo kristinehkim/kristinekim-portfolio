@@ -1,4 +1,3 @@
-# kristinekim-portfolio
 # Kristine Kim's Portfolio
 > This is my portfolio showcasing my skills and talents throughout the bootcamp program.  Through this portfolio, you will be able to see the progress I have made while highlighting my strongest work.
 > Live demo [_here_](https://kristinehkim.github.io/kristinekim-portfolio/). <!-- If you have the project hosted somewhere, include the link here. -->
