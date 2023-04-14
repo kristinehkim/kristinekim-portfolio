@@ -100,7 +100,7 @@ nav a:hover {
     margin: 30px;
 }
 
-/* This is referencing boxes 2-5 */
+/* This is referencing the projects boxes */
 .cards-container {
     display: flex;
     flex-direction: row;
@@ -159,7 +159,7 @@ footer ul li {
     list-style-type: none;
     flex-direction: row;
 }
-
+/* Media query */
 @media screen and (max-width: 992px) {
     header {
         background: teal;
